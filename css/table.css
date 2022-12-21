@@ -1,0 +1,27 @@
+table {
+    padding-top: 10px;
+    border-collapse: collapse;
+}
+
+.table__caption {
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+
+.table__cell--upper {
+    border: 1px solid rgb(83, 82, 82);
+    padding: 10px;
+    text-align: center;
+    background: crimson;
+}
+
+.table__cell {
+    border: 1px solid rgb(83, 82, 82);
+    padding: 10px;
+    text-align: center;
+    font-style: italic;
+}
+
+.table__row:nth-child(even) {
+    background: #eee;
+}

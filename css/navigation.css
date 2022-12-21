@@ -1,0 +1,33 @@
+.navigation {    
+    width: 300px;  
+    padding-bottom: 15px;  
+}
+
+.navigation__list {
+    list-style: none;    
+}
+
+.navigation__item {
+    margin: 15px 0px 15px 0px;    
+}
+
+.navigation__link {
+    text-decoration: none;
+    background-color: rgb(182, 178, 178);
+    border-radius: 15px;
+    padding: 5px 10px
+}
+
+.navigation__link:visited {
+    background-color: green;
+}
+
+.navigation__link:focus {
+    outline: 2px solid currentColor;
+}
+
+.navigation__link:hover {
+    background-color: crimson;
+    border-bottom: 1px solid;
+    outline: none;
+}

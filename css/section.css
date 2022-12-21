@@ -1,0 +1,19 @@
+.section {
+    width: 700px;  
+    line-height: 30px;
+    font-size: 20px;
+    padding: 0px 10px 10px 10px;
+}
+
+.section__header {
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+}
+
+.section__music {
+    padding-bottom: 15px;
+    width: 700px; 
+    line-height: 30px;
+    font-size: 15px;
+    padding: 10px 10px 10px 10px;
+}

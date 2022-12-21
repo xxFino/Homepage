@@ -1,0 +1,19 @@
+.article {
+    width: 700px;
+}
+
+.article__myPhoto {
+    border: 1px solid black;
+}
+
+.article__button {
+    background-color: crimson;
+    color: solid black;
+    margin-bottom: 20px;
+    padding: 5px 5px 5px 5px;
+    font-size: 20px;
+}
+
+.hidden {
+    display: none;
+}
