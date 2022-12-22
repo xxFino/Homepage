@@ -10,9 +10,9 @@ This website is about me. You can find here a few things, for example You will f
 I put there also something about my interested and that is mainly sport and music. I've made also table with my favorite song from each Kanye West albums.
 
 In my website I used this technologies:
--HTML
--CSS
--Java Script
+- HTML
+- CSS
+- Java Script
 
 This is how my site looks like: 
 ![Sample](images/pagePhoto.png)
