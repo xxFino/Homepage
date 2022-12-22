@@ -1,16 +1,30 @@
 console.log("Witam serdecznie :)");
 
-let buttonElement = document.querySelector(".article__button");
-let myPhotoElement = document.querySelector(".article__myPhoto");
-let themButtonElement = document.querySelector(".themButton");
-let container = document.querySelector(".container");
+const buttonElement = document.querySelector(".article__button");
 
-buttonElement.addEventListener("click", () => {
+const hidePhoto = () => {
+    const myPhotoElement = document.querySelector(".article__myPhoto");
+
     myPhotoElement.classList.toggle("hidden");
-
     buttonElement.innerText = myPhotoElement.classList.contains("hidden") ? "Pokaż zdjęcie" : "Ukryj zdjęcie";
-})
+}
 
-themButtonElement.addEventListener("click", () => {
+const initPhoto = () => {
+    const buttonElement = document.querySelector(".article__button");
+
+    buttonElement.addEventListener("click", hidePhoto);
+}
+
+initPhoto();
+
+const backgroundColorChange = () => {
+    const container = document.querySelector(".container");
     container.classList.toggle("newView");
-})
+}
+
+const initBackground = () => {
+    const themButtonElement = document.querySelector(".themButton");
+    themButtonElement.addEventListener("click", backgroundColorChange);
+}
+
+initBackground();
